@@ -8,14 +8,14 @@ import Contact from "./pages/Contact";
 import Resume from "./pages/Resume";
 
 export default function PortfolioContainer() {
-  const [currentPage, setCurrentPage] = useState("Home");
+  const [currentPage, setCurrentPage] = useState("About");
 
   const renderPage = () => {
-    if (currentPage === "Home") {
-      return (
-        <Home currentPage={currentPage} handlePageChange={handlePageChange} />
-      );
-    }
+    // if (currentPage === "Home") {
+    //   return (
+    //     <Home currentPage={currentPage} handlePageChange={handlePageChange} />
+    //   );
+    // }
     if (currentPage === "About") {
       return <About />;
     }
@@ -33,7 +33,7 @@ export default function PortfolioContainer() {
   return (
     <div>
       <Header currentPage={currentPage} handlePageChange={handlePageChange} />
-      {/* {renderPage()} */}
+      {renderPage()}
       <Footer />
     </div>
   );
