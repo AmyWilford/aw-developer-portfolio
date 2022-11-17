@@ -1,0 +1,25 @@
+.header {
+    height: 70px;
+    background-color: #081D5B;
+    color: #F27059;
+}
+
+
+.nav-link {
+    color: #F27059;
+    border: 1px solid #081D5B;
+
+}
+
+.nav-link:hover {
+    color: #F27059;
+    border: 1px solid #F27059;
+
+}
+.nav-link:visited {
+    color: #F27059;
+}
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link{
+    color: #F4F2ED;
+}
+

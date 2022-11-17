@@ -1,8 +1,8 @@
 import React from "react";
-
+import "./styles/Nav.css";
 export default function Nav({ currentPage, handlePageChange }) {
   return (
-    <nav className="navbar navbar-expand-md d-flex justify-content-between align-items-center">
+    <nav className="navbar header navbar-expand-md d-flex justify-content-between align-items-center">
       <div>
         <a
           href="#home"
