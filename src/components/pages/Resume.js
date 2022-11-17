@@ -1,13 +1,15 @@
 import React from "react";
 import "../styles/Container.css";
+import CV from "../../assets/AmyWilford-FullStackDeveloper-CV.pdf";
 export default function Resume() {
   return (
     <div className="container mt-5 text-center">
-      <h4>Technical Skills:</h4>
-      <a href="#" className="btn custom-btn btn-info my-2" download>
-        <i className="fa fa-download"></i> Download Resume
+      <a href={CV} className="btn custom-btn btn-info mb-2" download>
+        <i className="fa fa-download download-icon"></i> Download Resume
       </a>
       <div className="row text-center m-3 p-4 skills">
+        <h5 className="pb-4">Technical Skills:</h5>
+
         <div className="col-sm-6">
           <ul>
             <li>

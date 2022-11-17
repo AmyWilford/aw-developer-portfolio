@@ -98,6 +98,9 @@ h2 {
     border: 2px solid #081D5B;
     border-radius: 10px;;
 }
+.download-icon {
+    color: #081D5B;
+}
 
 /* Media Queries */
 @media only screen and (max-width: 576px) {
