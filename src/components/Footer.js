@@ -4,7 +4,7 @@ import "font-awesome/css/font-awesome.min.css";
 import "./styles/Footer.css";
 export default function Footer() {
   return (
-    <nav className="navbar fixed-bottom">
+    <nav className="navbar fixed-bottom footer">
       <div className="d-flex m-2">
         <a
           href="https://github.com/AmyWilford"

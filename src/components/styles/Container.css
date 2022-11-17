@@ -41,24 +41,7 @@ h2 {
     color: #EFB7AD;
 }
 
-@media only screen and (max-width: 576px) {
-    .hero-text {
-        margin-top: 8rem;
-        text-align: center;
-    }
-    h1 {
-        font-size: 4rem;
-    }
-    h2 {
-        font-size: 3rem;
-    }
 
-.custom-squiggle-box {
-    /* max-width: 100%;
-    height: auto; */
-    display: none;
-} 
-}
 
 @keyframes fade-slide-up {
     0% {
@@ -94,3 +77,47 @@ h2 {
       transform: none;
     }
   }
+
+  /* Resume Page */
+  ul {
+    list-style-type: none;
+    padding: 0;
+
+}
+.custom-btn {
+    background-color: #F27059;
+    color: #081D5B;
+     border: none;
+}
+.custom-btn:hover {
+    background-color: #EFB7AD;
+    color: #081D5B;
+    border: none;
+}
+.skills {
+    border: 2px solid #081D5B;
+    border-radius: 10px;;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 576px) {
+    .hero-text {
+        margin-top: 8rem;
+        text-align: center;
+    }
+    h1 {
+        font-size: 4rem;
+    }
+    h2 {
+        font-size: 3rem;
+    }
+
+.custom-squiggle-box {
+    /* max-width: 100%;
+    height: auto; */
+    display: none;
+} 
+.skills {
+    border: none;
+}
+}
