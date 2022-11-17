@@ -1,26 +1,30 @@
 /* HomePage Styles and Animation */
 
 .hero-text {
-    margin-top: 15rem;
+    margin-top: 8rem;
     text-align: right;
     color: #F27059;
 }
+.row {
+    --bs-gutter-x: 0rem;
+} 
 
 h1 {
     animation-delay: .5s;
     letter-spacing: .08em;
-    font-size: 5em;
+    font-size: 4.5em;
     font-weight: 500;
     text-shadow: 3px 2px #EFB7AD;
 
 }
 h2 {
     animation-delay: .7s;
-    font-size: 3em;
+    font-size: 3.5em;
         font-weight: 100;
 
 
 }
+
 .pop-in {
     animation: pop-in .8s cubic-bezier(0, 0.9, 0.3, 1.2) forwards;
     opacity: 0;
@@ -34,8 +38,28 @@ h2 {
 }
 
 .chevron:hover {
-    color: #FFD749;
+    color: #EFB7AD;
 }
+
+@media only screen and (max-width: 576px) {
+    .hero-text {
+        margin-top: 8rem;
+        text-align: center;
+    }
+    h1 {
+        font-size: 4rem;
+    }
+    h2 {
+        font-size: 3rem;
+    }
+
+.custom-squiggle-box {
+    /* max-width: 100%;
+    height: auto; */
+    display: none;
+} 
+}
+
 @keyframes fade-slide-up {
     0% {
         opacity: 0;

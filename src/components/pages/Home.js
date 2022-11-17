@@ -6,15 +6,17 @@ import squiggle from "../../assets/squiggle.png";
 export default function Home({ currentPage, handlePageChange }) {
   return (
     <div className="row">
-      <div className="col-md-5">
-        <img src={squiggle} alt="squiggle-design" className=""></img>
+      <div className="col-sm-4 custom-squiggle-box">
+        <img
+          src={squiggle}
+          alt="squiggle-design"
+          className="custom-squiggle"
+        ></img>
       </div>
-      <div className="col-md-6 mr-1">
+      <div className="col-sm-7">
         <div className="hero-text px-2 ">
           <div className="">
-            <h1 className="pop-in">
-              amy <br></br>wilford
-            </h1>
+            <h1 className="pop-in">amy wilford</h1>
             <h2 className="pop-in">
               full stack <br></br>web developer
             </h2>
