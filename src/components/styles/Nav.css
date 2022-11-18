@@ -1,7 +1,7 @@
 
 .header {
     height: 50px;
-    background-color: #081D5B;
+    background-color: #081D5B !important;
 }
 
 .active {
