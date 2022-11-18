@@ -6,3 +6,6 @@ i {
     color:#F27059;
     width: 20px;
 }
+i:hover {
+    color: #EFB7AD;
+}

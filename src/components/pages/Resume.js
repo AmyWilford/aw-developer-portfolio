@@ -7,10 +7,10 @@ export default function Resume() {
       <a href={CV} className="btn custom-btn btn-info mb-2" download>
         <i className="fa fa-download download-icon"></i> Download Resume
       </a>
-      <div className="row text-center m-3 p-4 skills">
-        <h5 className="pb-4">Technical Skills:</h5>
+      <div className="row m-3 p-4 skills">
+        <h5 className="pb-4 text-left">Technical Skills:</h5>
 
-        <div className="col-sm-6">
+        <div className="col-sm-6 text-center">
           <ul>
             <li>
               <b>Languages:</b>

@@ -1,25 +1,27 @@
+
 .header {
     height: 50px;
     background-color: #081D5B;
-    color: #F27059;
+    /* color: #F27059; */
+}
+.active {
+    color: #F4F2ED !important;
 }
 
 
 .nav-link {
     color: #F27059;
-    border: 1px solid #081D5B;
-
 }
 
-.nav-link:hover {
+/* .nav-link:visited {
     color: #F27059;
-    border: 1px solid #F27059;
+} */
 
-}
-.nav-link:visited {
-    color: #F27059;
-}
-.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link{
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
     color: #F4F2ED;
 }
+.nav-link:hover {
+    color: #EFB7AD;
+}
+
 

@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import { validateEmail } from "../utils/helpers";
+import squiggle from "../../assets/squiggle.png";
+import "../styles/Container.css";
 
 export default function Contact() {
   const [name, setName] = useState("");
@@ -53,11 +55,16 @@ export default function Contact() {
 
   return (
     <div className="row">
-      <div className=" p-4 col-sm-4">
-        <h4>let's get in touch</h4>
-        <p>A delightful message about getting in touch</p>
+      <div className="col-sm-2 custom-squiggle-box">
+        <img
+          src={squiggle}
+          alt="squiggle-design"
+          className="custom-squiggle"
+        ></img>
       </div>
-      <div className="col-sm-8 p-5">
+      <div className="col-sm-8 p-5 contact-form">
+        <h5 className="pb-4 text-right">Contact:</h5>
+
         <form>
           <div className="form-group">
             <label htmlFor="name">Your Name:</label>

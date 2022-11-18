@@ -3,7 +3,7 @@ import "./styles/Nav.css";
 export default function Nav({ currentPage, handlePageChange }) {
   return (
     <nav className="navbar header navbar-expand-sm d-flex justify-content-between align-items-center">
-      <div>
+      <div className="pl-3 font-weight-bold">
         <a
           href="#home"
           onClick={() => handlePageChange("Home")}

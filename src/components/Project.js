@@ -9,7 +9,7 @@ export default function Project({ projects }) {
           <div key={project.id} className="image-container">
             <img
               className="project-image"
-              src="./assets/techspace.png"
+              src={project.src}
               alt={project.altTag}
             />
             <div className="overlay">

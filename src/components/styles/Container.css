@@ -102,6 +102,11 @@ h2 {
     color: #081D5B;
 }
 
+/* Contact Page */
+.contact-form {
+    text-align: right;
+}
+
 /* Media Queries */
 @media only screen and (max-width: 576px) {
     .hero-text {
