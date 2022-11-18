@@ -16,11 +16,11 @@ My personal portfolio featuring a selection of my deployed projects, featuring f
 
 This project was built using:
 
-React.js
-Node.js
-JavaScript
-Bootstrap
-CSS
+- React.js & JSX
+- Node.js
+- JavaScript
+- Bootstrap
+- CSS
 
 ## Usage-Installation
 
