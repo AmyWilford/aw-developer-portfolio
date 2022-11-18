@@ -2,7 +2,7 @@ import React from "react";
 import "./styles/Nav.css";
 export default function Nav({ currentPage, handlePageChange }) {
   return (
-    <nav className="navbar header navbar-expand-sm d-flex justify-content-between align-items-center sticky-top">
+    <nav className="custom-nav navbar header navbar-expand-sm d-flex justify-content-between align-items-center sticky-top">
       <div className="pl-2 font-weight-bold">
         <a
           href="#home"
