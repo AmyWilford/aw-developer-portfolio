@@ -1,4 +1,4 @@
-# Portfolio | Amy Wilford - Full Stack Web Developer
+# Developer Portfolio: Amy Wilford - Full Stack Web Developer
 
  <img src="public/assets/DeployedSite-Demo.png"  alt="deployed site">
 
