@@ -65,7 +65,7 @@ export default function Contact() {
         ></img>
       </div>
       <div className="col-sm-8 p-5 contact-form">
-        <h5 className="pb-4 text-right">Contact:</h5>
+        <h5 className="mb-4 text-right">contact:</h5>
 
         <form>
           <div className="form-group">

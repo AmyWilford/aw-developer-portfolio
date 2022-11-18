@@ -8,8 +8,7 @@ export default function Home() {
       <div className="container mt-5">
         <div className="row h-100 align-items-center justify-content-between">
           <div className="col-md-8">
-            <h5>about:</h5>
-            <hr></hr>
+            <h5 className="mb-4">about:</h5>
             <p>
               I am a Full Stack Web Developer with professional experience in
               corporate, creative, and non-profit spaces which have fostered a

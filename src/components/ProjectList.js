@@ -3,6 +3,7 @@ const ProjectList = [
       id: 1,
       src: "./assets/techspace.png",
       altTag: "laptop open to blogsite",
+      // details: "FullStack | MySQL | Express",
       name: "techspace",
       deployedUrl: "https://radiant-plains-16714.herokuapp.com/",
       githubRepo: "https://github.com/AmyWilford/Tech-Space---CMS-Blog",
