@@ -1,7 +1,7 @@
 .image-container {
     position: relative;
       width: 200px;
-      margin: 15px
+      margin: 15px;
     }
     
     .project-image {
@@ -31,11 +31,16 @@
     .overlay-text {
         color: #F4F2ED;
         font-weight: bold;
-        margin-top: 25%;
+        margin-top: 15%;
   
     }
 .custom-margin {
     margin-bottom: 70px;
+}
+
+.project-icon {
+    color: white;
+
 }
       /* .text {
         color:black;

@@ -8,7 +8,7 @@ export default function Resume() {
         <i className="fa fa-download download-icon"></i> Download Resume
       </a>
       <div className="row m-3 p-4 skills">
-        <h5 className="mb-4 text-left">technical skills:</h5>
+        <h4 className="mb-4 text-left">technical skills:</h4>
 
         <div className="col-sm-6 text-center">
           <ul>

@@ -2,14 +2,14 @@ import React from "react";
 import "./styles/Nav.css";
 export default function Nav({ currentPage, handlePageChange }) {
   return (
-    <nav className="navbar header navbar-expand-sm d-flex justify-content-between align-items-center">
+    <nav className="navbar header navbar-expand-sm d-flex justify-content-between align-items-center sticky-top">
       <div className="pl-3 font-weight-bold">
         <a
           href="#home"
           onClick={() => handlePageChange("Home")}
           className={currentPage === "Home" ? "nav-link active" : "nav-link"}
         >
-          |aw|
+          aw
         </a>
       </div>
       <div>
@@ -35,7 +35,7 @@ export default function Nav({ currentPage, handlePageChange }) {
                 currentPage === "About" ? "nav-link active" : "nav-link"
               }
             >
-              About
+              about
             </a>
           </li>
           <li className="nav-item">
@@ -46,7 +46,7 @@ export default function Nav({ currentPage, handlePageChange }) {
                 currentPage === "Portfolio" ? "nav-link active" : "nav-link"
               }
             >
-              Portfolio
+              portfolio
             </a>
           </li>
           <li className="nav-item">
@@ -57,7 +57,7 @@ export default function Nav({ currentPage, handlePageChange }) {
                 currentPage === "Resume" ? "nav-link active" : "nav-link"
               }
             >
-              Resume
+              resume
             </a>
           </li>
           <li className="nav-item">
@@ -68,7 +68,7 @@ export default function Nav({ currentPage, handlePageChange }) {
                 currentPage === "Contact" ? "nav-link active" : "nav-link"
               }
             >
-              Contact
+              contact
             </a>
           </li>
         </ul>

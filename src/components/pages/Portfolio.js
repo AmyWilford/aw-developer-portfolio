@@ -6,7 +6,7 @@ import ProjectList from "../ProjectList";
 export default function Portfolio() {
   return (
     <div className="container mt-5">
-      <h5 className="mb-4">projects:</h5>
+      <h4 className="mb-4">projects:</h4>
       <Project projects={ProjectList} />
     </div>
   );

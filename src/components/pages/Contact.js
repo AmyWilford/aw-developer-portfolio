@@ -65,34 +65,32 @@ export default function Contact() {
         ></img>
       </div>
       <div className="col-sm-8 p-5 contact-form">
-        <h5 className="mb-4 text-right">contact:</h5>
+        <h4 className="mb-4 text-right">contact:</h4>
 
         <form>
           <div className="form-group">
-            <label htmlFor="name">Your Name:</label>
             <input
               type="text"
               value={name}
               onChange={handleInputChange}
               className="form-control"
-              placeholder="LLCool Name"
+              placeholder="First and Last Name"
             ></input>
           </div>
 
           <div className="form-group">
-            <label htmlFor="email">Email Address:</label>
             <input
               type="email"
               value={email}
               onChange={handleInputChange}
               className="form-control"
-              placeholder="amazingemail@example.com"
+              placeholder="email address"
             ></input>
           </div>
           <div className="form-group">
-            <label htmlFor="message">Let's work together!</label>
             <textarea
               className="form-control"
+              placeholder="tell me about your project"
               value={message}
               onChange={handleInputChange}
               rows="4"
