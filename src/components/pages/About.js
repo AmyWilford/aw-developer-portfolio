@@ -5,7 +5,7 @@ import profilePicture from "../../assets/profile-pic.png";
 export default function Home() {
   return (
     <div>
-      <div className="container mt-5">
+      <div className="container mt-5 custom-margin">
         <div className="row h-100 align-items-center custom-alignment justify-content-between">
           <div className="col-md-8">
             <h4 className="mb-4">about:</h4>
