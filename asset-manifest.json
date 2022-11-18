@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/aw-developer-portfolio/static/css/main.ffad0d42.css",
+    "main.css": "/aw-developer-portfolio/static/css/main.3c662e0d.css",
     "main.js": "/aw-developer-portfolio/static/js/main.b90879a3.js",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/aw-developer-portfolio/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
     "static/media/fontawesome-webfont.eot": "/aw-developer-portfolio/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
@@ -11,11 +11,11 @@
     "static/media/profile-pic.png": "/aw-developer-portfolio/static/media/profile-pic.d07377a6e4b7a3d6992a.png",
     "static/media/squiggle.png": "/aw-developer-portfolio/static/media/squiggle.f9c6424f23cc3deabcaf.png",
     "index.html": "/aw-developer-portfolio/index.html",
-    "main.ffad0d42.css.map": "/aw-developer-portfolio/static/css/main.ffad0d42.css.map",
+    "main.3c662e0d.css.map": "/aw-developer-portfolio/static/css/main.3c662e0d.css.map",
     "main.b90879a3.js.map": "/aw-developer-portfolio/static/js/main.b90879a3.js.map"
   },
   "entrypoints": [
-    "static/css/main.ffad0d42.css",
+    "static/css/main.3c662e0d.css",
     "static/js/main.b90879a3.js"
   ]
 }
