@@ -7,7 +7,7 @@ export default function Nav({ currentPage, handlePageChange }) {
         <a
           href="#home"
           onClick={() => handlePageChange("Home")}
-          className={currentPage === "Home" ? "nav-link active" : "nav-link"}
+          className={currentPage === "Home" ? "nav-link active my-brand" : "nav-link my-brand"}
         >
           aw
         </a>
