@@ -21,8 +21,6 @@ h2 {
     animation-delay: .7s;
     font-size: 3.5em;
         font-weight: 100;
-
-
 }
 
 .pop-in {
@@ -40,8 +38,6 @@ h2 {
 .chevron:hover {
     color: #EFB7AD;
 }
-
-
 
 @keyframes fade-slide-up {
     0% {
@@ -125,8 +121,6 @@ h2 {
     }
 
 .custom-squiggle-box {
-    /* max-width: 100%;
-    height: auto; */
     display: none;
 } 
 .skills {
