@@ -74,7 +74,7 @@ export default function Contact() {
               value={name}
               onChange={handleInputChange}
               className="form-control"
-              placeholder="First and Last Name"
+              placeholder="first and last name"
             ></input>
           </div>
 

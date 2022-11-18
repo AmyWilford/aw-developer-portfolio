@@ -84,11 +84,13 @@ h2 {
     padding: 0;
 
 }
+
 .custom-btn {
     background-color: #F27059;
     color: #081D5B;
-     border: none;
+    font-weight: bold;
 }
+
 .custom-btn:hover {
     background-color: #EFB7AD;
     color: #081D5B;
@@ -96,7 +98,8 @@ h2 {
 }
 .skills {
     border: 2px solid #081D5B;
-    border-radius: 10px;;
+    border-radius: 10px;
+    border: 2px solid #081D5B;
 }
 .download-icon {
     color: #081D5B;
@@ -107,10 +110,11 @@ h2 {
     text-align: right;
 }
 
+
 /* Media Queries */
 @media only screen and (max-width: 576px) {
     .hero-text {
-        margin-top: 8rem;
+        margin-top: 10rem;
         text-align: center;
     }
     h1 {
@@ -129,3 +133,4 @@ h2 {
     border: none;
 }
 }
+

@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div>
       <div className="container mt-5">
-        <div className="row h-100 align-items-center justify-content-between">
+        <div className="row h-100 align-items-center custom-alignment justify-content-between">
           <div className="col-md-8">
             <h4 className="mb-4">about:</h4>
             <p>

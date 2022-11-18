@@ -3,11 +3,15 @@ import "./styles/Nav.css";
 export default function Nav({ currentPage, handlePageChange }) {
   return (
     <nav className="navbar header navbar-expand-sm d-flex justify-content-between align-items-center sticky-top">
-      <div className="pl-3 font-weight-bold">
+      <div className="pl-2 font-weight-bold">
         <a
           href="#home"
           onClick={() => handlePageChange("Home")}
-          className={currentPage === "Home" ? "nav-link active my-brand" : "nav-link my-brand"}
+          className={
+            currentPage === "Home"
+              ? "nav-link active my-brand"
+              : "nav-link my-brand"
+          }
         >
           aw
         </a>
@@ -32,7 +36,9 @@ export default function Nav({ currentPage, handlePageChange }) {
               href="#about"
               onClick={() => handlePageChange("About")}
               className={
-                currentPage === "About" ? "nav-link active" : "nav-link"
+                currentPage === "About"
+                  ? "nav-link active pl-2"
+                  : "nav-link pl-2"
               }
             >
               about
@@ -43,7 +49,9 @@ export default function Nav({ currentPage, handlePageChange }) {
               href="#portfolio"
               onClick={() => handlePageChange("Portfolio")}
               className={
-                currentPage === "Portfolio" ? "nav-link active" : "nav-link"
+                currentPage === "Portfolio"
+                  ? "nav-link active pl-2"
+                  : "nav-link pl-2"
               }
             >
               portfolio
@@ -54,7 +62,9 @@ export default function Nav({ currentPage, handlePageChange }) {
               href="#resume"
               onClick={() => handlePageChange("Resume")}
               className={
-                currentPage === "Resume" ? "nav-link active" : "nav-link"
+                currentPage === "Resume"
+                  ? "nav-link active pl-2"
+                  : "nav-link pl-2"
               }
             >
               resume
@@ -65,7 +75,9 @@ export default function Nav({ currentPage, handlePageChange }) {
               href="#contact"
               onClick={() => handlePageChange("Contact")}
               className={
-                currentPage === "Contact" ? "nav-link active" : "nav-link"
+                currentPage === "Contact"
+                  ? "nav-link active pl-2"
+                  : "nav-link pl-2"
               }
             >
               contact

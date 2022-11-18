@@ -4,7 +4,7 @@ import CV from "../../assets/AmyWilford-FullStackDeveloper-CV.pdf";
 export default function Resume() {
   return (
     <div className="container mt-5 text-center">
-      <a href={CV} className="btn custom-btn btn-info mb-2" download>
+      <a href={CV} className="btn custom-btn mb-2" download>
         <i className="fa fa-download download-icon"></i> Download Resume
       </a>
       <div className="row m-3 p-4 skills">
