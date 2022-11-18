@@ -11,6 +11,8 @@ export default function Contact() {
   const [confirmationMessage, setConfirmationMessage] = useState("");
 
   const handleInputChange = (e) => {
+    setConfirmationMessage("");
+
     const { target } = e;
     console.log(e);
     const inputType = target.type;
@@ -26,9 +28,7 @@ export default function Contact() {
     }
 
     if (!name || !email || !message) {
-      setErrorMessage(
-        "It looks like you are missing some information - make sure to include your name, email address, and a quick message "
-      );
+      setErrorMessage("Please include your name, email, and a quick message.");
       return;
     }
   };
@@ -36,21 +36,23 @@ export default function Contact() {
   const handleFormSubmit = (e) => {
     e.preventDefault();
     console.log(`name ${name}, email ${email}, message${message}`);
-    if (!validateEmail(email)) {
-      setErrorMessage("email is invalid");
+
+    if (!name || !email || !message) {
+      setErrorMessage("Please include your name, email, and a quick message.");
       return;
     }
-    if (!name || !email || !message) {
-      setErrorMessage(
-        "It looks like you are missing some information - make sure to include your name, email address, and a quick message "
-      );
+    if (!validateEmail(email)) {
+      setErrorMessage("Please enter a valid email address");
       return;
     }
 
     setName("");
     setEmail("");
     setMessage("");
-    setConfirmationMessage("Thanks for getting in touch");
+    setErrorMessage("");
+    setConfirmationMessage(
+      "Thank you for reaching out. I'll be in touch soon!"
+    );
   };
 
   return (
@@ -96,6 +98,11 @@ export default function Contact() {
               rows="4"
             ></textarea>
           </div>
+          {errorMessage && (
+            <div className="text-right font-italic">
+              <p>{errorMessage}</p>
+            </div>
+          )}
           <button
             type="button"
             onClick={handleFormSubmit}
@@ -103,11 +110,7 @@ export default function Contact() {
           >
             submit
           </button>
-          {errorMessage && (
-            <div>
-              <p>{errorMessage}</p>
-            </div>
-          )}
+
           {confirmationMessage && (
             <div>
               <p>{confirmationMessage}</p>
