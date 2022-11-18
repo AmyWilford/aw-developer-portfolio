@@ -3,8 +3,8 @@ import "./styles/Project.css";
 export default function Project({ projects }) {
   return (
     <div>
-      <h4 className="mb-4 page-name">projects:</h4>
-      <div className="d-flex flex-wrap justify-content-between custom-margin">
+      <h4 className="mb-4 project-name">projects:</h4>
+      <div className="project-container custom-margin">
         {projects.map((project) => (
           <div key={project.id} className="image-container">
             <img
