@@ -55,6 +55,15 @@ const ProjectList = [
     deployedUrl: "https://amywilford.github.io/Composer-Hangman/",
     githubRepo: "https://github.com/AmyWilford/Composer-Hangman",
   },
+  {
+    id: 7,
+    src: "./assets/javascript.png",
+    altTag: "coffee mug",
+    name: "Javascript",
+    details: "Full Stack | GraphQL",
+    deployedUrl: "hhttps://whispering-inlet-47426.herokuapp.com/",
+    githubRepo: "https://github.com/AmyWilford/Mug-Store",
+  },
 ];
 
 export default ProjectList;
