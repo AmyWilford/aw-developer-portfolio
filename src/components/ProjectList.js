@@ -61,7 +61,7 @@ const ProjectList = [
     altTag: "coffee mug",
     name: "Javascript",
     details: "Full Stack | GraphQL",
-    deployedUrl: "hhttps://whispering-inlet-47426.herokuapp.com/",
+    deployedUrl: "https://whispering-inlet-47426.herokuapp.com/",
     githubRepo: "https://github.com/AmyWilford/Mug-Store",
   },
 ];
