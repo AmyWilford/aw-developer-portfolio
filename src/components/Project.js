@@ -18,6 +18,7 @@ export default function Project({ projects }) {
                   {project.name}
                 </h5>
                 <p className="font-weight-light">{project.details}</p>
+                <p className="font-weight-light">{project.specs}</p>
                 <div className="row">
                   <div className="col-6 text-right pr-3">
                     <a
