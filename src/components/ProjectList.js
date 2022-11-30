@@ -24,7 +24,7 @@ const ProjectList = [
     src: "./assets/weather-img.png",
     altTag: "weather dashboard",
     name: "Weather Dashboard | frontend",
-    details: "Get up to date weather forecatst wherever your plans take you",
+    details: "Get up to date weather forecasts wherever your plans take you",
     deployedUrl: "https://amywilford.github.io/Weather-Dashboard/",
     githubRepo: "https://github.com/AmyWilford/Weather-Dashboard",
   },
