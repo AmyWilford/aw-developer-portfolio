@@ -5,11 +5,15 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
 
+}
+ul {
+    list-style: none;
+}
 .nav-options {
     display: flex;
     align-items: center;
+    font-size: 1.2rem;
 
 }
 .active {
@@ -32,7 +36,7 @@
 @media only screen and (max-width: 576px) {
     .nav-options {
     flex-direction: column;
-    text-align: right;
+    align-items: flex-end;
     }
     
 }

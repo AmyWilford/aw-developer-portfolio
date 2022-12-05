@@ -2,7 +2,7 @@ import React from "react";
 import "./styles/Nav.css";
 export default function Nav({ currentPage, handlePageChange }) {
   return (
-    <nav className="header ">
+    <nav className="header">
       <div className="pl-2 font-weight-bold">
         <a
           href="#home"
@@ -24,8 +24,8 @@ export default function Nav({ currentPage, handlePageChange }) {
               onClick={() => handlePageChange("About")}
               className={
                 currentPage === "About"
-                  ? "nav-link active pl-2"
-                  : "nav-link pl-2"
+                  ? "nav-link active pl-3"
+                  : "nav-link pl-3"
               }
             >
               about
@@ -37,8 +37,8 @@ export default function Nav({ currentPage, handlePageChange }) {
               onClick={() => handlePageChange("Portfolio")}
               className={
                 currentPage === "Portfolio"
-                  ? "nav-link active pl-2"
-                  : "nav-link pl-2"
+                  ? "nav-link active pl-3"
+                  : "nav-link pl-3"
               }
             >
               portfolio
@@ -51,8 +51,8 @@ export default function Nav({ currentPage, handlePageChange }) {
               onClick={() => handlePageChange("Contact")}
               className={
                 currentPage === "Contact"
-                  ? "nav-link active pl-2"
-                  : "nav-link pl-2"
+                  ? "nav-link active pl-3"
+                  : "nav-link pl-3"
               }
             >
               contact
