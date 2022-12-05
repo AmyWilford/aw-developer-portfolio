@@ -79,6 +79,9 @@ export default function Contact() {
           </button>
           <p className="font-italic">{response}</p>
         </form>
+        <p className="mt-5 text-right font-weight-bold custom-color">
+          You can also reach me directly at wilford.amy @ gmail.com
+        </p>
       </div>
     </div>
   );
