@@ -1,5 +1,4 @@
 /* HomePage Styles and Animation */
-
 .hero-text {
     margin-top: 8rem;
     text-align: right;
@@ -12,7 +11,7 @@
 h1 {
     animation-delay: .5s;
     letter-spacing: .08em;
-    font-size: 4em;
+    font-size: 4.2em;
     font-weight: 500;
     text-shadow: 3px 2px #EFB7AD;
 
@@ -74,13 +73,7 @@ h2 {
     }
   }
 
-  /* Resume Page */
-  ul {
-    list-style-type: none;
-    padding: 0;
-
-}
-
+/* Resume Download Button */
 .custom-btn {
     background-color: #F27059;
     color: #081D5B;
@@ -92,22 +85,21 @@ h2 {
     color: #081D5B;
     border: none;
 }
-.skills {
-    border: 2px solid #081D5B;
-    border-radius: 10px;
-    border: 2px solid #081D5B;
-}
 .download-icon {
     color: #081D5B;
 }
 
-/* Contact Page */
-.contact-form {
-    text-align: right;
-}
-
 
 /* Media Queries */
+@media only screen and (max-width: 767px) {
+    .custom-container {
+        text-align: center
+    }
+    .profile {
+        padding: 2rem;
+    }
+
+}
 @media only screen and (max-width: 576px) {
     .hero-text {
         margin-top: 2rem;
@@ -123,8 +115,6 @@ h2 {
 .custom-squiggle-box {
     display: none;
 } 
-.skills {
-    border: none;
-}
+
 }
 

@@ -15,11 +15,9 @@ export default function Home({ currentPage, handlePageChange }) {
       </div>
       <div className="col-sm-7">
         <div className="hero-text px-2 ">
-          <div className="">
+          <div className="ml-5">
             <h1 className="pop-in">amy wilford</h1>
-            <h2 className="pop-in">
-              full stack <br></br>web developer
-            </h2>
+            <h2 className="pop-in">full stack developer</h2>
             <div>
               <a
                 className="chevron"

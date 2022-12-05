@@ -1,120 +1,83 @@
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
 import { validateEmail } from "../utils/helpers";
+import emailjs from "emailjs-com";
 import squiggle from "../../assets/squiggle.png";
 import "../styles/Container.css";
 
 export default function Contact() {
-  const [name, setName] = useState("");
-  const [email, setEmail] = useState("");
-  const [message, setMessage] = useState("");
-  const [errorMessage, setErrorMessage] = useState("");
-  const [confirmationMessage, setConfirmationMessage] = useState("");
+  const form = useRef();
 
-  const handleInputChange = (e) => {
-    setConfirmationMessage("");
+  const [response, responseSet] = useState("");
 
-    const { target } = e;
-    console.log(e);
-    const inputType = target.type;
-    const inputValue = target.value;
-    console.log(inputType);
+  const sendEmail = (e) => {
+    e.preventDefault();
 
-    if (inputType === "text") {
-      setName(inputValue);
-    } else if (inputType === "email") {
-      setEmail(inputValue);
-    } else {
-      setMessage(inputValue);
-    }
-
-    if (!name || !email || !message) {
-      setErrorMessage("Please include your name, email, and a quick message.");
-      return;
-    }
+    emailjs
+      .sendForm(
+        "service_56902us",
+        "template_xebltpq",
+        form.current,
+        "ymzPLJFflr6Io1XVv"
+      )
+      .then(
+        (result) => {
+          document.querySelector(".user_name").value = "";
+          document.querySelector(".user_email").value = "";
+          document.querySelector(".message").value = "";
+          responseSet(
+            "Your email has been sent. Thank you for reaching out. I'll be in touch soon!"
+          );
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
   };
 
-  const handleFormSubmit = (e) => {
-    e.preventDefault();
-    console.log(`name ${name}, email ${email}, message${message}`);
-
-    if (!name || !email || !message) {
-      setErrorMessage("Please include your name, email, and a quick message.");
-      return;
-    }
-    if (!validateEmail(email)) {
-      setErrorMessage("Please enter a valid email address");
-      return;
-    }
-
-    setName("");
-    setEmail("");
-    setMessage("");
-    setErrorMessage("");
-    setConfirmationMessage(
-      "Thank you for reaching out. I'll be in touch soon!"
-    );
+  const clearMessage = () => {
+    responseSet("");
   };
 
   return (
-    <div className="row">
-      <div className="col-sm-2 custom-squiggle-box">
-        <img
-          src={squiggle}
-          alt="squiggle-design"
-          className="custom-squiggle"
-        ></img>
-      </div>
-      <div className="col-sm-8 p-5 contact-form">
-        <h4 className="mb-4 text-right">contact:</h4>
-
-        <form>
+    <div className="container">
+      <div className="p-5">
+        <h4 className="mb-4">contact:</h4>
+        <form className ref={form} onSubmit={sendEmail}>
           <div className="form-group">
+            <label className="font-weight-bold">Name:</label>
             <input
               type="text"
-              value={name}
-              onChange={handleInputChange}
-              className="form-control"
-              placeholder="first and last name"
+              required
+              name="user_name"
+              onChange={clearMessage}
+              className="user_name form-control"
             ></input>
           </div>
-
           <div className="form-group">
+            <label className="font-weight-bold">Email:</label>
             <input
               type="email"
-              value={email}
-              onChange={handleInputChange}
-              className="form-control"
-              placeholder="email address"
+              required
+              name="user_email"
+              onChange={clearMessage}
+              className="user_email form-control"
             ></input>
           </div>
+          <label className="font-weight-bold">Message:</label>
           <div className="form-group">
             <textarea
-              className="form-control"
-              placeholder="tell me about your project"
-              value={message}
-              onChange={handleInputChange}
+              className="message form-control"
+              required
+              name="message"
+              onChange={clearMessage}
               rows="4"
             ></textarea>
           </div>
-          {errorMessage && (
-            <div className="text-right font-italic">
-              <p>{errorMessage}</p>
-            </div>
-          )}
-          <button
-            type="button"
-            onClick={handleFormSubmit}
-            className="btn custom-btn px-3"
-          >
-            submit
+          <button type="submit" className="btn custom-btn px-3">
+            send email
           </button>
-
-          {confirmationMessage && (
-            <div>
-              <p>{confirmationMessage}</p>
-            </div>
-          )}
-          <div id="confirmation"></div>
+          <p className="font-italic">{response}</p>
         </form>
       </div>
     </div>

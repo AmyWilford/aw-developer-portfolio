@@ -1,9 +1,17 @@
 
 .header {
-    height: 50px;
+    padding: 1rem;
     background-color: #081D5B !important;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
+.nav-options {
+    display: flex;
+    align-items: center;
+
+}
 .active {
     color: #F27059 !important;
 }
@@ -14,7 +22,7 @@
     color:#F4F2ED ;
 }
 
-.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
+.nav-options .nav-link.active, .navbar-nav .show>.nav-link {
     color: #F27059;
 }
 .nav-link:hover {
@@ -22,11 +30,9 @@
 }
 
 @media only screen and (max-width: 576px) {
-    .custom-nav{
-        padding-bottom: 10rem;
-    }
-    .nav-link {
-        background-color: #081D5B;
+    .nav-options {
+    flex-direction: column;
+    text-align: right;
     }
     
 }

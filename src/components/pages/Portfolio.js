@@ -5,7 +5,7 @@ import ProjectList from "../ProjectList";
 // import "../styles/Portfolio.css";
 export default function Portfolio() {
   return (
-    <div className="container mt-5">
+    <div className="container custom-container mt-5">
       <Project projects={ProjectList} />
     </div>
   );

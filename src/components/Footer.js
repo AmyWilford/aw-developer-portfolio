@@ -20,13 +20,6 @@ export default function Footer() {
         >
           <i className="fa fa-2x fa-linkedin mx-3"></i>
         </a>
-        <a
-          href="https://stackoverflow.com/users/16165394/amylou"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <i className="fa fa-2x fa-stack-overflow mx-3" aria-hidden="true"></i>
-        </a>
       </div>
     </nav>
   );
