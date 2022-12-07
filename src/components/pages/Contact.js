@@ -1,7 +1,5 @@
 import React, { useState, useRef } from "react";
-import { validateEmail } from "../utils/helpers";
 import emailjs from "emailjs-com";
-import squiggle from "../../assets/squiggle.png";
 import "../styles/Container.css";
 
 export default function Contact() {
@@ -41,7 +39,7 @@ export default function Contact() {
 
   return (
     <div className="container">
-      <div className="p-5">
+      <div className="p-3">
         <h4 className="mb-4">contact:</h4>
         <form className ref={form} onSubmit={sendEmail}>
           <div className="form-group">
@@ -79,7 +77,7 @@ export default function Contact() {
           </button>
           <p className="font-italic">{response}</p>
         </form>
-        <p className="mt-5 text-right font-weight-bold custom-color">
+        <p className="mt-2 text-right font-weight-bold custom-color">
           You can also reach me directly at wilford.amy @ gmail.com
         </p>
       </div>

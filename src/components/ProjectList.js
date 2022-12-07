@@ -17,9 +17,9 @@ const ProjectList = [
     name: "Budget",
     details: "Budgeting site designed for non-financially minded budgeters",
     specs: "FULLSTACK: SERN | Handlebars | JavaScript | Bcrypt",
-    deployedUrl: "https://bloodcurdling-vampire-96793.herokuapp.com/",
+    deployedUrl: "https://aw-budget.herokuapp.com/",
     githubRepo:
-      "https://github.com/AmyWilford/Budgethttps://github.com/AmyWilford/Budget",
+      "https://github.com/AmyWilford/Budget-App",
   },
   {
     id: 3,

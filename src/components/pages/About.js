@@ -18,7 +18,7 @@ export default function Home() {
               project management, team leadership, and effective relationship
               building. Known as an imaginative problem solver with a keen
               attention to detail, and a passion for the intersection of design
-              and function, and can quickly learn new languages, and effectively
+              and function, and can quickly learn new languages to effectively
               apply and communicate core concepts.
             </p>
             <p>
@@ -45,14 +45,14 @@ export default function Home() {
             <h4 className="mb-4">technical skills:</h4>
             <div className="font-weight-bold">Languages & Frameworks: </div>
             <p>
-              JavaScriptES6+ | MySQL | MongoDB | REST | Express | React | Node |
+              JavaScriptES6+ | MySQL | MongoDB | GraphQL | REST | Express | React | Node |
               TDD | JQuery | Handlebars | HTML | CSS3 | Bootstrap | Bulma
             </p>
             <div className="font-weight-bold">
               Applications & Industry Processess:
             </div>
             <p>
-              Agile | Github | Heroku | MongoDB Atlas | Wordpress
+              Agile | Github | Heroku | Insomnia | MongoDB Atlas | Postman | Wordpress
             </p>
           </div>
         </div>
