@@ -14,7 +14,7 @@ export default function Home({ currentPage, handlePageChange }) {
         ></img>
       </div>
       <div className="col-sm-8 align-self-center">
-        <div className="hero-text px-2 ">
+        <div className="hero-text px-2">
           <div>
             <h1 className="pop-in">amy wilford</h1>
             <h2 className="pop-in">full stack developer</h2>

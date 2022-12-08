@@ -55,4 +55,7 @@
   .project-name {
     text-align: center;
   }
+  .overlay {
+    opacity: .85;
+  }
 }
