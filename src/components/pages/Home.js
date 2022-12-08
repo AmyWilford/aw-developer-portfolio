@@ -5,15 +5,15 @@ import squiggle from "../../assets/squiggle.png";
 
 export default function Home({ currentPage, handlePageChange }) {
   return (
-    <div className="row">
-      <div className="col-sm-3 custom-squiggle-box">
+    <div className="row home-row">
+      <div className="col-sm-4 custom-squiggle-box">
         <img
           src={squiggle}
           alt="squiggle-design"
           className="custom-squiggle"
         ></img>
       </div>
-      <div className="col-sm-8">
+      <div className="col-sm-8 align-self-center">
         <div className="hero-text px-2 ">
           <div>
             <h1 className="pop-in">amy wilford</h1>

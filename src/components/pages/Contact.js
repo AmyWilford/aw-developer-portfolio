@@ -39,7 +39,7 @@ export default function Contact() {
 
   return (
     <div className="container">
-      <div className="p-3">
+      <div className="p-3 mb-5">
         <h4 className="mb-4">contact:</h4>
         <form className ref={form} onSubmit={sendEmail}>
           <div className="form-group">

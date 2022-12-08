@@ -1,24 +1,27 @@
 /* HomePage Styles and Animation */
 .hero-text {
-    margin-top: 8rem;
+    /* margin-top: 8rem; */
     text-align: right;
     color: #F27059;
+    margin-bottom: 2rem;
 }
 .row {
     --bs-gutter-x: 0rem;
 } 
-
+.home-row {
+    height: 80vh;
+}
 .custom-squiggle {
     opacity: 0.4;
+    width: 600px;
 }
 
 h1 {
     animation-delay: .5s;
     letter-spacing: .08em;
-    font-size: 4.2em;
+    font-size: 4.7em;
     font-weight: 500;
     text-shadow: 3px 2px #EFB7AD;
-
 }
 h2 {
     animation-delay: .7s;

@@ -45,11 +45,11 @@ export default function Home() {
             <h4 className="mb-4">technical skills:</h4>
             <div className="font-weight-bold">Languages & Frameworks: </div>
             <p>
-              JavaScriptES6+ | MySQL | MongoDB | GraphQL | REST | Express | React | Node |
+              JavaScriptES6+ | MySQL | MongoDB | GraphQL | REST API | Express | React | Node |
               TDD | JQuery | Handlebars | HTML | CSS3 | Bootstrap | Bulma
             </p>
             <div className="font-weight-bold">
-              Applications & Industry Processess:
+              Applications & Industry Processes:
             </div>
             <p>
               Agile | Github | Heroku | Insomnia | MongoDB Atlas | Postman | Wordpress

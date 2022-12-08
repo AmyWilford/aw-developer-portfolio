@@ -1,7 +1,6 @@
 const ProjectList = [
   {
     id: 1,
-    // src: "./assets/techspace.png",
     src: "./assets/techspace-img.png",
     altTag: "laptop open to blogsite",
     name: "techspace",
@@ -52,7 +51,7 @@ const ProjectList = [
     githubRepo: "https://github.com/AmyWilford/Mistys-Pokedex",
   },
   {
-    id: 7,
+    id: 6,
     src: "./assets/javascript.png",
     altTag: "coffee mug",
     name: "Javascript",
@@ -61,6 +60,27 @@ const ProjectList = [
     deployedUrl: "https://whispering-inlet-47426.herokuapp.com/",
     githubRepo: "https://github.com/AmyWilford/Mug-Store",
   },
+  {
+    id: 7,
+    src: "./assets/codequiz.png",
+    altTag: "computer multiple choice test",
+    name: "Test your Javascript knowledge",
+    specs: "FRONTEND: HTML | CSS | Javascript | LocalStorage",
+    details: "A multiple choice coding quiz to test your javascript fundamentals. Get all the answers before the time runs out.",
+    deployedUrl: "https://amywilford.github.io/Javascript-Multiple-Choice-Quiz/",
+    githubRepo: "https://github.com/AmyWilford/Javascript-Multiple-Choice-Quiz",
+  },
+  {
+    id: 8,
+    src: "./assets/scooby-database.png",
+    altTag: "Organization-Chart",
+    name: "Scooby-Gang Team Database",
+    specs: "BACKEND: SQL | Node.js",
+    details: "This scooby-gang team database runs an interactive CLI to view - update - add - and delete information as members evolve.",
+    deployedUrl: "https://drive.google.com/file/d/1-41CMSZHgEWPt5MIk2dgLE2aw7k00HNU/view",
+    githubRepo: "https://github.com/AmyWilford/ScoobyGang---Team-Database",
+  },
+
 ];
 
 export default ProjectList;
