@@ -37,6 +37,7 @@
     color: #F4F2ED;
     font-weight: bold;
     margin-top: 8%;
+    z-index: 1;
 }
 .custom-margin {
     margin-bottom: 70px;
@@ -58,6 +59,6 @@
 
 @media only screen and (max-width: 480px) {
   .overlay {
-    opacity: .70;
+    opacity: .75;
 }
 }
