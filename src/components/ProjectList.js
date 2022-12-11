@@ -15,7 +15,7 @@ const ProjectList = [
     altTag: "budget paperwork",
     name: "Budget",
     details: "Budgeting site designed for non-financially minded budgeters",
-    specs: "FULLSTACK: SERN | Handlebars | JavaScript | Bcrypt",
+    specs: "FULLSTACK: MySQL | Sequelize | MVC | Handlebars | JavaScript | Bcrypt",
     deployedUrl: "https://aw-budget.herokuapp.com/",
     githubRepo:
       "https://github.com/AmyWilford/Budget-App",
