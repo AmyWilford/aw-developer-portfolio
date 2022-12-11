@@ -55,7 +55,18 @@
   .project-name {
     text-align: center;
   }
+  /* .image-container:active .overlay {
+    opacity: .85;
+    } */
+}
+/* @media (hover: hover) and (pointer: fine) {
+  .overlay {
+    opacity: 87;
+  }
+} */
+@media (hover:none), (pointer: coarse) {
   .overlay {
     opacity: .85;
   }
 }
+
