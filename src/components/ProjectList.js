@@ -64,7 +64,7 @@ const ProjectList = [
     id: 7,
     src: "./assets/codequiz.png",
     altTag: "computer multiple choice test",
-    name: "Test your Javascript knowledge",
+    name: "Javascript Quiz",
     specs: "FRONTEND: HTML | CSS | Javascript | LocalStorage",
     details: "A multiple choice coding quiz to test your javascript fundamentals.",
     deployedUrl: "https://amywilford.github.io/Javascript-Multiple-Choice-Quiz/",
