@@ -44,7 +44,6 @@
 
 .project-icon {
     color: white;
-
 }
  
 @media only screen and (max-width: 768px) {
@@ -60,10 +59,13 @@
 @media only screen and (max-width: 480px) {
   .overlay {
     background-color: white;
-    opacity: .85;
+    opacity: .70;
     }
     
   .overlay-text {
     color:  #081D5B;
   }
+  .project-icon {
+    color: #081D5B;
+}
 }
