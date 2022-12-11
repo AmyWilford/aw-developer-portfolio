@@ -36,8 +36,7 @@
 .overlay-text {
     color: #F4F2ED;
     font-weight: bold;
-    margin-top: 15%;
-
+    margin-top: 8%;
 }
 .custom-margin {
     margin-bottom: 70px;
@@ -55,18 +54,16 @@
   .project-name {
     text-align: center;
   }
-  /* .image-container:active .overlay {
-    opacity: .85;
-    } */
-}
-/* @media (hover: hover) and (pointer: fine) {
-  .overlay {
-    opacity: 87;
-  }
-} */
-@media (hover:none), (pointer: coarse) {
-  .overlay {
-    opacity: .85;
-  }
+
 }
 
+@media only screen and (max-width: 480px) {
+  .overlay {
+    background-color: white;
+    opacity: .85;
+    }
+    
+  .overlay-text {
+    color:  #081D5B;
+  }
+}
