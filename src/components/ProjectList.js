@@ -5,7 +5,7 @@ const ProjectList = [
     altTag: "laptop open to blogsite",
     name: "techspace",
     details: "CMS technology blogging site",
-    specs: "FULLSTACK: SERN | Handlebars | JavaScript | Bcrypt",
+    specs: "FULLSTACK: MySQL | Sequelize | Handlebars | JavaScript | Bcrypt",
     deployedUrl: "https://radiant-plains-16714.herokuapp.com/",
     githubRepo: "https://github.com/AmyWilford/Tech-Space---CMS-Blog",
   },
@@ -15,7 +15,7 @@ const ProjectList = [
     altTag: "budget paperwork",
     name: "Budget",
     details: "Budgeting site designed for non-financially minded budgeters",
-    specs: "FULLSTACK: MySQL | Sequelize | MVC | Handlebars | JavaScript | Bcrypt",
+    specs: "FULLSTACK: MySQL | Sequelize | Handlebars | JavaScript | Bcrypt",
     deployedUrl: "https://aw-budget.herokuapp.com/",
     githubRepo:
       "https://github.com/AmyWilford/Budget-App",
