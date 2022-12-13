@@ -6,9 +6,10 @@ export default function Project({ projects }) {
       <h4 className="mb-4 project-name">projects:</h4>
       <div className="project-container custom-margin">
         {projects.map((project) => (
-          <div key={project.id} className="row">
-            <div className="col-md-6 pb-2"><img className="project-image img-fluid" src={project.src} alt={project.altTag}></img></div>
-            <div className="col-md-6 project-details">
+          <div>
+          <div key={project.id} className="row p-2">
+            <div className="col-md-6"><img className="project-image img-fluid" src={project.src} alt={project.altTag}></img></div>
+            <div className="col-md-6 project-details ">
               <h5 className="text-lowercase font-weight-bold projectName">
                 {project.name}
               </h5>
@@ -35,7 +36,9 @@ export default function Project({ projects }) {
                 </div>
               </div>
             </div>
-            <hr></hr>
+
+          </div>
+          <hr></hr>
 
           </div>
         ))}
