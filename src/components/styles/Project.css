@@ -4,7 +4,6 @@
     border-radius: 15px;
     border: 3px solid white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-
 }
 
 .projectName {
@@ -25,7 +24,14 @@
     display: flex;
     justify-content: start;
 }
- 
+.sub-icon-text{
+    color:#081D5B;
+    text-decoration: none;
+}
+.sub-icon-text:hover{
+    color: #EFB7AD;
+}
+
 @media only screen and (max-width: 768px) {
     .project-container {
         justify-content:center;
