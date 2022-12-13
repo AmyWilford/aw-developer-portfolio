@@ -9,7 +9,6 @@
 
 .projectName {
     text-shadow: 1px 1px #EFB7AD;
-
 }
 .custom-margin {
     margin-bottom: 70px;
@@ -39,9 +38,11 @@
 .project-icon-row {
     justify-content: center;
 }
+.projectName {
+margin-top: 1.2rem;
 
 }
-
+}
 @media only screen and (max-width: 480px) {
   .overlay {
     opacity: .75;
