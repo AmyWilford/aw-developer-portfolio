@@ -1,7 +1,7 @@
 /* HomePage Styles and Animation */
 .hero-text {
     /* margin-top: 8rem; */
-    text-align: right;
+    text-align: left;
     color: #F27059;
     margin-bottom: 2rem;
 }
@@ -15,10 +15,10 @@
     opacity: 0.4;
     width: 600px;
 }
-
-.hero-text {
-    padding-right: 2rem !important;
+.profile-img {
+    width: 250px;
 }
+
 
 h1 {
     animation-delay: .5s;
@@ -38,18 +38,18 @@ h2 {
     opacity: 0;
 }
 
-.chevron {
+/* .chevron {
     color: #F27059;
     animation: fade-slide-up .5s 1s ease-out forwards,
                     pulse 2s 3s ease-out infinite;
         opacity: 0;
-}
+} */
 
-.chevron:hover {
+/* .chevron:hover {
     color: #EFB7AD;
-}
+} */
 
-@keyframes fade-slide-up {
+/* @keyframes fade-slide-up {
     0% {
         opacity: 0;
         transform: translateY(4em);
@@ -72,7 +72,7 @@ h2 {
         opacity: 1;
         transform: none;
     }
-}
+} */
 @keyframes pop-in {
     0% {
       opacity: 0;
@@ -89,15 +89,14 @@ h2 {
     background-color: #F27059;
     color: #081D5B;
     font-weight: bold;
+    max-width: 150px;
+    justify-content: right;
 }
 
 .custom-btn:hover {
     background-color: #EFB7AD;
     color: #081D5B;
     border: none;
-}
-.download-icon {
-    color: #081D5B;
 }
 
 /* contact page */
@@ -109,6 +108,9 @@ h2 {
 @media only screen and (max-width: 767px) {
     .custom-container {
         text-align: center
+    }
+    .custom-row {
+        justify-content: center;
     }
     .profile {
         padding: 2rem;

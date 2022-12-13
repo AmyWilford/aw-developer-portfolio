@@ -21,6 +21,9 @@ export default function Footer() {
           <i className="fa fa-2x fa-linkedin mx-3"></i>
         </a>
       </div>
+      <div>
+        <small className="mr-2">wilford.amy@gmail.com</small>
+      </div>
     </nav>
   );
 }

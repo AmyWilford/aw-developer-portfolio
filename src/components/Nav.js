@@ -1,6 +1,8 @@
 import React from "react";
 import "./styles/Nav.css";
+
 export default function Nav({ currentPage, handlePageChange }) {
+
   return (
     <nav className="header">
       <div className="pl-2 font-weight-bold">
@@ -21,9 +23,9 @@ export default function Nav({ currentPage, handlePageChange }) {
           <li>
             <a
               href="#about"
-              onClick={() => handlePageChange("About")}
+              onClick={() => handlePageChange("Home")}
               className={
-                currentPage === "About"
+                currentPage === "Home"
                   ? "nav-link active pl-3"
                   : "nav-link pl-3"
               }

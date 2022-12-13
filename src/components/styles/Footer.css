@@ -3,10 +3,14 @@
     background-color:#F4F2ED ;
     margin-top: 60px;
 }
-i {
+i, small {
     color:#F27059;
-    width: 20px;
+    width: 18px;
 }
 i:hover {
     color: #EFB7AD;
+}
+
+small {
+    font-weight: bold;
 }
