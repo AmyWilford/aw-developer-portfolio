@@ -9,7 +9,7 @@ export default function Project({ projects }) {
           <div>
           <div key={project.id} className="row p-2">
             <div className="col-md-6"><img className="project-image img-fluid" src={project.src} alt={project.altTag}></img></div>
-            <div className="col-md-6 project-details">
+            <div className="col-md-6 project-details align-self-center">
               <h5 className="text-lowercase font-weight-bold projectName">
                 {project.name}
               </h5>
@@ -23,13 +23,13 @@ export default function Project({ projects }) {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <i className="fa fa-2x fa-laptop project-icon"></i>
+                    <i className="fa fa-3x fa-laptop project-icon"></i>
                   </a>
                 </div>
                 <div className="pr-5">
                   <a href={project.githubRepo} target="_blank" rel="noreferrer">
                     <i
-                      className="fa fa-2x fa-github project-icon"
+                      className="fa fa-3x fa-github project-icon"
                       aria-hidden="true"
                     ></i>
                   </a>
