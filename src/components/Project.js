@@ -17,7 +17,7 @@ export default function Project({ projects }) {
               <p className="font-weight-light text-wrap pl-2 m-0">{project.details}</p>
               <p>{project.specs}</p>
               <div className="project-icon-row">
-                <div className="p-3">
+                <div className="px-3">
                   <a
                     href={project.deployedUrl}
                     target="_blank"
@@ -26,7 +26,7 @@ export default function Project({ projects }) {
                     <i className="fa fa-2x fa-laptop project-icon"></i>
                   </a>
                 </div>
-                <div className="p-3">
+                <div className="px-3">
                   <a href={project.githubRepo} target="_blank" rel="noreferrer">
                     <i
                       className="fa fa-2x fa-github project-icon"
