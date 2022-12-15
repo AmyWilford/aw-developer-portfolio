@@ -19,7 +19,6 @@ export default function Project({ projects }) {
                 <h5 className="text-lowercase font-weight-bold projectName">
                   {project.name}
                 </h5>
-                <p className="m-0">{project.stack}</p>
                 <p className="font-weight-light text-wrap m-0">
                   {project.details}
                 </p>
