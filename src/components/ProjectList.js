@@ -73,10 +73,10 @@ const ProjectList = [
   {
     id: 8,
     src: "./assets/boq-gpo.png",
-    altTag: "Bay of Quinte Green Party of Ontario",
+    altTag: "Bay of Quinte, Green Party of Ontario",
     name: "Bay of Quinte Green Party of Ontario",
     specs: "Wordpress | Custom HTML & CSS",
-    details: "Website for local riding, Bay of Quinte Green Party of Ontario party.",
+    details: "Custom website build for local Green Party of Ontario riding, Bay of Quinte.",
     deployedUrl: "https://bayofquintegpo.ca/",
     githubRepo: "https://github.com/AmyWilford",
   },
