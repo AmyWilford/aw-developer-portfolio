@@ -72,7 +72,7 @@ const ProjectList = [
   },
   {
     id: 8,
-    src: "./assets/bog-gpo.png",
+    src: "./assets/boq-gpo.png",
     altTag: "Bay of Quinte Green Party of Ontario",
     name: "Bay of Quinte Green Party of Ontario",
     specs: "Wordpress | Custom HTML & CSS",
