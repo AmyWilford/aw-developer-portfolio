@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.41a8e64b.css",
-    "main.js": "/portfolio/static/js/main.a2069b3d.js",
+    "main.css": "/portfolio/static/css/main.119023bf.css",
+    "main.js": "/portfolio/static/js/main.7699589b.js",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/portfolio/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
     "static/media/fontawesome-webfont.eot": "/portfolio/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
     "static/media/fontawesome-webfont.ttf?v=4.7.0": "/portfolio/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
     "static/media/fontawesome-webfont.woff?v=4.7.0": "/portfolio/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
     "static/media/fontawesome-webfont.woff2?v=4.7.0": "/portfolio/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
-    "static/media/AmyWilford-FullStackDeveloper-CV.pdf": "/portfolio/static/media/AmyWilford-FullStackDeveloper-CV.f1ad6aac810285dd34b7.pdf",
+    "static/media/AmyWilford-FullStackDeveloper-CV.pdf": "/portfolio/static/media/AmyWilford-FullStackDeveloper-CV.7db33b750ec238c0cda7.pdf",
     "static/media/profile-pic.png": "/portfolio/static/media/profile-pic.d07377a6e4b7a3d6992a.png",
     "index.html": "/portfolio/index.html",
-    "main.41a8e64b.css.map": "/portfolio/static/css/main.41a8e64b.css.map",
-    "main.a2069b3d.js.map": "/portfolio/static/js/main.a2069b3d.js.map"
+    "main.119023bf.css.map": "/portfolio/static/css/main.119023bf.css.map",
+    "main.7699589b.js.map": "/portfolio/static/js/main.7699589b.js.map"
   },
   "entrypoints": [
-    "static/css/main.41a8e64b.css",
-    "static/js/main.a2069b3d.js"
+    "static/css/main.119023bf.css",
+    "static/js/main.7699589b.js"
   ]
 }
