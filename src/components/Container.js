@@ -4,7 +4,7 @@ import Footer from "./Footer";
 import Home from "./pages/Home";
 import About from "./About";
 import Portfolio from "./pages/Portfolio";
-import Contact from "./pages/Contact";
+// import Contact from "./pages/Contact";
 
 export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState("Home");
@@ -21,7 +21,7 @@ export default function PortfolioContainer() {
     if (currentPage === "Portfolio") {
       return <Portfolio />;
     }
-    return <Contact />;
+    // return <Contact />;
   };
 
   const handlePageChange = (page) => setCurrentPage(page);

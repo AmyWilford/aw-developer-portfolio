@@ -1,6 +1,16 @@
 const ProjectList = [
   {
     id: 1,
+    src: "./assets/boq-gpo.png",
+    altTag: "Bay of Quinte, Green Party of Ontario",
+    name: "Bay of Quinte Green Party of Ontario",
+    specs: "Wordpress | Custom HTML & CSS",
+    details: "Custom website build for local Green Party of Ontario riding, Bay of Quinte.",
+    deployedUrl: "https://bayofquintegpo.ca/",
+    githubRepo: "https://github.com/AmyWilford",
+  },
+  {
+    id: 2,
     src: "./assets/techspace-1.png",
     altTag: "Techspace Blog Home page",
     name: "techspace",
@@ -10,7 +20,17 @@ const ProjectList = [
     githubRepo: "https://github.com/AmyWilford/Tech-Space---CMS-Blog",
   },
   {
-    id: 2,
+    id: 3,
+    src: "./assets/javascript-1.png",
+    altTag: "JavaScript Mug Store Home Page",
+    name: "Javascript Custom Mugs",
+    specs: "MERN | GraphQL | Stripe | JWT | JavaScript",
+    details: "A fullstack e-commerce store for unique customized mugs",
+    deployedUrl: "https://whispering-inlet-47426.herokuapp.com/",
+    githubRepo: "https://github.com/AmyWilford/Mug-Store",
+  },
+  {
+    id: 4,
     src: "./assets/budget-1.png",
     altTag: "Budget Homepage",
     name: "Budget",
@@ -21,7 +41,7 @@ const ProjectList = [
       "https://github.com/AmyWilford/Budget-App",
   },
   {
-    id: 3,
+    id: 5,
     src: "./assets/weather-1.png",
     altTag: "weather dashboard homepage",
     name: "Weather Dashboard",
@@ -31,17 +51,7 @@ const ProjectList = [
     githubRepo: "https://github.com/AmyWilford/Weather-Dashboard",
   },
   {
-    id: 4,
-    src: "./assets/wordplay-1.png",
-    altTag: "Wordplay HomePage",
-    name: "Wordplay",
-    details: "A word game that tests your knowledge, not your luck",
-    specs: "JavaScript | JQuery | Merriam-Webster API ",
-    deployedUrl: "https://amywilford.github.io/Word-Play/",
-    githubRepo: "https://github.com/AmyWilford/Word-Play",
-  },
-  {
-    id: 5,
+    id: 6,
     src: "./assets/pokedex-1.png",
     altTag: "Mistys Pokedex Homepage",
     name: "Mistys Pokedex",
@@ -50,36 +60,7 @@ const ProjectList = [
     deployedUrl: "https://amywilford.github.io/Mistys-Pokedex/",
     githubRepo: "https://github.com/AmyWilford/Mistys-Pokedex",
   },
-  {
-    id: 6,
-    src: "./assets/javascript-1.png",
-    altTag: "JavaScript Mug Store Home Page",
-    name: "Javascript",
-    specs: "MERN | GraphQL | Stripe | JWT | JavaScript",
-    details: "A fullstack e-commerce store for unique customized mugs",
-    deployedUrl: "https://whispering-inlet-47426.herokuapp.com/",
-    githubRepo: "https://github.com/AmyWilford/Mug-Store",
-  },
-  {
-    id: 7,
-    src: "./assets/codequiz-1.png",
-    altTag: "JavaScript Quiz Home Page",
-    name: "Javascript Quiz",
-    specs: "HTML | CSS | Javascript",
-    details: "A multiple choice coding quiz to test your javascript fundamentals.",
-    deployedUrl: "https://amywilford.github.io/Javascript-Multiple-Choice-Quiz/",
-    githubRepo: "https://github.com/AmyWilford/Javascript-Multiple-Choice-Quiz",
-  },
-  {
-    id: 8,
-    src: "./assets/boq-gpo.png",
-    altTag: "Bay of Quinte, Green Party of Ontario",
-    name: "Bay of Quinte Green Party of Ontario",
-    specs: "Wordpress | Custom HTML & CSS",
-    details: "Custom website build for local Green Party of Ontario riding, Bay of Quinte.",
-    deployedUrl: "https://bayofquintegpo.ca/",
-    githubRepo: "https://github.com/AmyWilford",
-  },
+
 
 ];
 

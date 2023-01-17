@@ -11,6 +11,13 @@ i:hover {
     color: #EFB7AD;
 }
 
-small {
-    font-weight: bold;
+.contact-section{
+    color:#F27059;
+    font-weight: bold;  
+}
+
+@media only screen and (max-width: 308px) {
+.contact-section {
+    font-size: 13px;
+}
 }

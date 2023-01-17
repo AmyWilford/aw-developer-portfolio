@@ -47,7 +47,7 @@ export default function Nav({ currentPage, handlePageChange }) {
             </a>
           </li>
 
-          <li>
+          {/* <li>
             <a
               href="#contact"
               onClick={() => handlePageChange("Contact")}
@@ -59,7 +59,7 @@ export default function Nav({ currentPage, handlePageChange }) {
             >
               contact
             </a>
-          </li>
+          </li> */}
         </ul>
       </div>
     </nav>
